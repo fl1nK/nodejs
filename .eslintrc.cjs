@@ -6,6 +6,8 @@ module.exports = {
   extends: [
     'standard',
     'plugin:n/recommended',
+    'plugin:import/recommended',
+    'plugin:promise/recommended',
     'plugin:sonarjs/recommended',
     'prettier',
   ],
